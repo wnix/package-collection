@@ -21,7 +21,7 @@ Follows the nixpkgs convention: packages live under `pkgs/<name>/`, modules unde
 
 ```nix
 {
-  inputs.wnix.url = "github:wnix/packages-and-services";
+  inputs.wnix.url = "github:wnix/packages";
   inputs.wnix.inputs.nixpkgs.follows = "nixpkgs";
 }
 ```
